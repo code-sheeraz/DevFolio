@@ -1,0 +1,37 @@
+.section-home{height: 100vh;
+padding-top: 15%;}
+
+.section-price,
+.section-service{
+padding: 115px 0px 0px;
+}
+.section-contact,
+.section-testimony,
+.section-portfolio,
+.section-resume{
+padding: 115px 0px 0px;
+}
+.portmb-name {
+	display: block;
+	text-align: center;
+	line-height: 55px;
+}
+.phsbb-anchor{
+	text-decoration:none;
+}
+.phsbb-anchor > img{
+	margin:auto;
+	display: block;
+}
+@media screen and ( max-width:767px ){
+	 .hero-content h1 {
+		font-size: 33px;
+	}
+	.section-home {
+		height: unset;
+		padding-top: 150px ;
+	}
+	.navbar-links ul {
+		margin-top: 50px;
+	}
+}
